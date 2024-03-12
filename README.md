@@ -2,7 +2,7 @@
 ## Module 
 To make a Verilog Demultiplexer, I used case statements to assign the values to the for outputs: W, X, Y,and Z, for every SEL input. At each SEL input, one of the outputs will be equal to A while the rest are 0.   
 The truth table is as follows: 
-| SEL | Output w | Output X | Output Y | Output Z|
+| SEL | Output W | Output X | Output Y | Output Z|
 | --- | --- | --- | --- | --- |
 | 2'b00 | A | 2'b00 | 2'b00 | 2'b00|
 | 2'b01 | 2'b00 | A | 2'b00 | 2'b00 |
